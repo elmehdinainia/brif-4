@@ -97,7 +97,7 @@ main{
 .sub{
     position: relative;
     top: 150px;
-    left: 27%;
+    left: 350px;
     background-color: rgb(222, 247, 2);
     width: 130px;
     height: 40px;
@@ -122,6 +122,58 @@ label{
 }
 input[type=checkbox]{
     position: relative;
-    top: 201px;
+    top: 200px;
     left: 48%;
+}
+
+@media screen and (max-width:360px) {
+  
+    .sub {
+        position: relative;
+        left: -80px;
+    }
+    img{
+        width: 10%;
+        height: 10%;
+        border-radius:100%;
+        margin-left: 3%;
+        margin-top: 3%;
+        
+    }
+    header h1{
+        color: azure;
+        margin-left: 1%;
+        margin-top:5% ;
+        font-size: 100%;
+    }
+    #chambre{
+        position: relative;
+        left: 20%;
+    }
+    #propre{
+        position: relative;
+        left: 20%;
+
+    }
+    #prix{
+        position: relative;
+        left: 20%;
+
+
+    }
+    #ville {
+        position: relative;
+        left: 20%;
+
+    }
+    label{
+        position: relative;
+        left: 20%;
+
+    }
+    input[type=checkbox]{
+        position: relative;
+        top: 200px;
+        left: 18%;
+        
 }
