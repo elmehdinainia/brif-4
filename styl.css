@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 img{
     width: 5%;
     height: 4%;
@@ -14,31 +19,109 @@ header{
     display: flex;
 }
 body{
-    background-image:url(background.jpg);
+    background:linear-gradient(rgba(10, 0, 0, 0.336)  , rgba(0, 0, 0, 0.411)), url(background.jpg);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size:cover ;
 
 }
-input {
+main{
+    width:100%;
+
+}
+#ville {
     position: relative;
-    top: 200px;
-    left: 45%;
+    top: 110px;
+    left: 40%;
     margin: 10px;
     display: block;
     border-radius: 10px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+    
 }
+#chambre{
+    position: relative;
+    top: 120px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+}
+#prix{
+    position: relative;
+    top: 130px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+    
+}
+#propre{
+    position: relative;
+    top: 140px;
+    left: 40%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+
+    
+
+}
+
 .sub{
-    margin-left: 6%;
-    margin-top: -2%;
-    background-color: seagreen;
+    position: relative;
+    top: 150px;
+    left: 27%;
+    background-color: rgb(222, 247, 2);
+    width: 130px;
+    height: 40px;
+    border-radius:100px;
+    
+    
+    
+    
 }
+
+
 label{
     margin-bottom: 50px;
+    color:blanchedalmond;
+    text-decoration:underline;
+    
 }
 label{
    position: relative;
-    top: 165px;
+    top: 200px;
+    left: 48%;
+}
+input[type=checkbox]{
+    position: relative;
+    top: 201px;
     left: 48%;
 }
